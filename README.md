@@ -3,6 +3,11 @@
 This project contains code for [RabbitMQ tutorials](http://www.rabbitmq.com/getstarted.html) with
 their ports to various languages.
 
+This repository only contains runnable code. Please consult [tutorials on the site](http://www.rabbitmq.com/getstarted.html)
+to learn more about [the concepts](http://www.rabbitmq.com/getstarted.html), requirements, supported client library version and so on.
+
+All tutorials **require a RabbitMQ node running on localhost** with stock (default) settings.
+
 ## Languages
 
 The following ports are available:
@@ -21,6 +26,7 @@ The following ports are available:
  * [Java (with IntelliJ IDEA)](./java-idea)
  * [PHP (with php-amqplib)](./php)
  * [PHP (with php-amqp)](./php-amqp)
+ * [PHP (with queue-interop)](./php-interop)
  * [Perl](./perl)
  * [Python (with Pika)](./python)
  * [Ruby (with Bunny)](./ruby)
